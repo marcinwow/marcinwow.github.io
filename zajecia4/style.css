@@ -1,0 +1,53 @@
+* { /* RODZAJ 1 ODWAŁANIA */
+	font-family: monospace;
+}
+
+h1 { /* RODZAJ 2 ODWAŁANIA */
+	font-size: 50px;
+	color: fuchsia;
+}
+
+main { /* RODZAJ 2 ODWAŁANIA */
+	color: red;
+}
+
+main div {
+	display: inline-block;
+}
+
+p {
+	color: lime;
+}
+
+.kwadrat {
+	background-color: dodgerblue;
+	height: 200px;
+	width: 200px;
+	margin: 2px;
+}
+
+#jeden {
+	background-color: pink;
+	font-size: 50px;
+}
+
+main p {
+	color: black;
+}
+
+img {
+	border-radius: 20%;
+	height: 1000px;
+}
+
+img:hover {
+	border-radius: 50%;
+}
+
+header {
+	background-color: red;
+	border: 2px solid green;
+	border: 20px dotted green;
+	position: sticky;
+	top: 0;
+}
